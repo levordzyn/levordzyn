@@ -43,8 +43,11 @@ Hi, I'm **Levin**.
 <br>
 
 **The question:** How much signal lives in pre-race sessions (quali pace, sprint results, track temp) to predict Sunday's podium?
+
 **The approach:** Ingested timing data via FastF1/OpenF1, engineered rolling performance features, compared linear (Ridge) vs. non-linear (XGBoost) baselines.
+
 **Key finding:** XGBoost edged Ridge on non-linear interactions (track temp × tyre compound, quali-sprint delta). Interlagos blind test: **P1 NOR, P2 MAX, P3 ANT** → actual **P1 NOR, P2 MAX, P3 HAD**.
+
 **Stack:** Python, FastF1, Pandas, scikit-learn, XGBoost
 
 </details>
