@@ -14,7 +14,7 @@
 Hi, I'm **Levin**.
 
 - 🎓 Information Systems student  
-- 🏎️ F1 nerd — during races I'm usually wondering what data drove the strategy call on lap 24  
+- 🏎️ During races, I'm usually wondering what data drove the strategy call on lap 24  
 - 📊 I build systems that turn raw data into decisions, the same job a pit wall does every weekend  
 - 🌱 Currently deep in ML workflows, data pipelines, and decision-support modeling
 
@@ -31,22 +31,22 @@ Hi, I'm **Levin**.
 
 ---
 
-## 🏁 Results
+## Results
 
 | Pos | Project | What it does | Status |
 |:---:|:--------|:-------------|:------:|
-| **P1** | **F1 Race Predictor** | Predicts Grand Prix winners using quali deltas, sprint data, track temp & weather (FastF1 / OpenF1). Benchmarks Ridge vs. XGBoost. | ✅ **Validated** — Interlagos test: predicted NOR/MAX/ANT → actual NOR/MAX/HAD |
+| **P1** | **F1 Race Predictor** | Predicts Grand Prix winners using quali deltas, sprint data, track temp & weather (FastF1 / OpenF1). Benchmarks Ridge vs. XGBoost. | 🚧 Polishing & publishing soon |
 | **P2** | **[ml-football27](https://github.com/levordzyn/ml-football27)** | Companion tool for eFootball Master League saves (fork of [tjgg260/eFootball-Master-League](https://github.com/tjgg260/eFootball-Master-League)). | ✅ Live |
 
 <details>
-<summary><b>🔍 Behind the Build: F1 Race Predictor</b></summary>
+<summary><b> Behind the Build: F1 Race Predictor</b></summary>
 <br>
 
 **The question:** How much signal lives in pre-race sessions (quali pace, sprint results, track temp) to predict Sunday's podium?
 
 **The approach:** Ingested timing data via FastF1/OpenF1, engineered rolling performance features, compared linear (Ridge) vs. non-linear (XGBoost) baselines.
 
-**Key finding:** XGBoost edged Ridge on non-linear interactions (track temp × tyre compound, quali-sprint delta). Interlagos blind test: **P1 NOR, P2 MAX, P3 ANT** → actual **P1 NOR, P2 MAX, P3 HAD**.
+**Key finding:** XGBoost edged Ridge on non-linear interactions (track temp × tyre compound, quali-sprint delta). Interlagos blind test: **P1 NOR, P2 MAX, P3 ANT** -> actual **P1 NOR, P2 MAX, P3 HAD**.
 
 **Stack:** Python, FastF1, Pandas, scikit-learn, XGBoost
 
@@ -56,9 +56,9 @@ Hi, I'm **Levin**.
 
 ## 🔧 Next Stint
 
-- 📦 **Ship the F1 Predictor** — clean repo, publish benchmarks, write a post-mortem on what worked (and what didn't)  
-- 🧠 **Sharper ML foundations** — production-grade pipelines, proper model evaluation beyond accuracy  
-- 📻 **Dream project** — real-time telemetry into lightweight AI race engineer concept
+- **Ship the F1 Predictor** — clean repo, publish benchmarks, write a post-mortem on what worked (and what didn't)  
+- **Sharper ML foundations** — production-grade pipelines, proper model evaluation beyond accuracy  
+- **Dream project** — real-time telemetry into lightweight AI race engineer concept
 
 ---
 
@@ -66,18 +66,16 @@ Hi, I'm **Levin**.
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=levordzyn&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=e10600&icon_color=e10600" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=levordzyn&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=e10600" alt="Top languages" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=levordzyn&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=e10600&icon_color=e10600&text_color=ffffff&cache_seconds=1800" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=levordzyn&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=e10600&text_color=ffffff&cache_seconds=1800" alt="Top languages" />
 
-<img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=levordzyn&bg_color=0d1117&color=e10600&line=e10600&point=ffffff&area=true&hide_border=true" alt="Contribution graph" />
-
-</div>
+<br><br>
 
 ---
 
 ## 💬 Paddock Talk
 
-| | |
+| Favorite |
 |---|---|
 | **Drivers** | Kimi Antonelli, Pierre Gasly, Charles Leclerc |
 | **Team** | Mercedes-AMG PETRONAS F1 Team |
