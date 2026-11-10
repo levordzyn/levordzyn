@@ -75,7 +75,7 @@ Hi, I'm **Levin**.
 
 ## 💬 Paddock Talk
 
-| Favorite |
+| Favorite| |
 |---|---|
 | **Drivers** | Kimi Antonelli, Pierre Gasly, Charles Leclerc |
 | **Team** | Mercedes-AMG PETRONAS F1 Team |
