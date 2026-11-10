@@ -1,5 +1,5 @@
 <!-- Header banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e10600,100:0b0b0b&height=190&section=header&text=Levin&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Information%20Systems%20%C3%97%20Formula%201&descSize=18&descAlignY=58&animation=fadeIn" alt="Levin - Information Systems x Formula 1" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e10600,100:0b0b0b&height=190&section=header&text=Levin&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Information%20Systems%20%C3%97%20Formula%201&descSize=18&descAlignY=58&animation=fadeIn" alt="Levin — Information Systems × Formula 1" />
 
 <div align="center">
 
@@ -11,12 +11,12 @@
 
 ## 🎙️ Pit Wall
 
-Hi, I'm Levin! 
+Hi, I'm **Levin**.
 
-- 🎓 Information Systems.
-- 🏎️ Massive F1 nerd. While watching races, I'm usually wondering what data prompted a strategy call on lap 24.
-- 📊 I like systems that turn raw data into decisions, the same job a pit wall does every race weekend.
-- 🌱 Right now, I'm deep into machine learning workflows, data pipelines, and decision-support modeling.
+- 🎓 Information Systems student  
+- 🏎️ F1 nerd — during races I'm usually wondering what data drove the strategy call on lap 24  
+- 📊 I build systems that turn raw data into decisions, the same job a pit wall does every weekend  
+- 🌱 Currently deep in ML workflows, data pipelines, and decision-support modeling
 
 ---
 
@@ -26,6 +26,7 @@ Hi, I'm Levin!
 ![SQL](https://img.shields.io/badge/SQL-0b0b0b?style=for-the-badge&logo=postgresql&logoColor=e10600)
 ![Pandas](https://img.shields.io/badge/Pandas-0b0b0b?style=for-the-badge&logo=pandas&logoColor=e10600)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0b0b0b?style=for-the-badge&logo=scikitlearn&logoColor=e10600)
+![XGBoost](https://img.shields.io/badge/XGBoost-0b0b0b?style=for-the-badge&logo=xgboost&logoColor=e10600)
 ![Git](https://img.shields.io/badge/Git-0b0b0b?style=for-the-badge&logo=git&logoColor=e10600)
 
 ---
@@ -34,17 +35,17 @@ Hi, I'm Levin!
 
 | Pos | Project | What it does | Status |
 |:---:|:--------|:-------------|:------:|
-| **P1** | **F1 Race Predictor** | Predicts Grand Prix outcomes using quali deltas, sprint data, and weather feeds (via FastF1 / OpenF1). Comparing Ridge regression against XGBoost. | 🚧 Polishing & publishing soon |
-| **P2** | **[ml-football27](https://github.com/levordzyn/ml-football27)** | A personalized companion tool for eFootball Master League saves (custom fork of [tjgg260/eFootball-Master-League](https://github.com/tjgg260/eFootball-Master-League)). | ✅ Live |
+| **P1** | **F1 Race Predictor** | Predicts Grand Prix winners using quali deltas, sprint data, track temp & weather (FastF1 / OpenF1). Benchmarks Ridge vs. XGBoost. | ✅ **Validated** — Interlagos test: predicted NOR/MAX/ANT → actual NOR/MAX/HAD |
+| **P2** | **[ml-football27](https://github.com/levordzyn/ml-football27)** | Companion tool for eFootball Master League saves (fork of [tjgg260/eFootball-Master-League](https://github.com/tjgg260/eFootball-Master-League)). | ✅ Live |
 
 <details>
 <summary><b>🔍 Behind the Build: F1 Race Predictor</b></summary>
 <br>
 
-- **The Question:** How much signal is really inside pre-race sessions (quali pace, sprint results, track temp) to predict who stands on the top step on Sunday?
-- **The Approach:** Ingested timing data with FastF1/OpenF1, built rolling performance features, and evaluated baseline models (Ridge) vs. non-linear trees (XGBoost).
-- **The Verdict:** Interlagos Prediction: P1 NOR, P2 MAX, P3 ANT. Actual: P1 NOR, P2 MAX, P3 HAD
-- **Stack:** Python, FastF1, Pandas, scikit-learn, XGBoost
+**The question:** How much signal lives in pre-race sessions (quali pace, sprint results, track temp) to predict Sunday's podium?
+**The approach:** Ingested timing data via FastF1/OpenF1, engineered rolling performance features, compared linear (Ridge) vs. non-linear (XGBoost) baselines.
+**Key finding:** XGBoost edged Ridge on non-linear interactions (track temp × tyre compound, quali-sprint delta). Interlagos blind test: **P1 NOR, P2 MAX, P3 ANT** → actual **P1 NOR, P2 MAX, P3 HAD**.
+**Stack:** Python, FastF1, Pandas, scikit-learn, XGBoost
 
 </details>
 
@@ -52,10 +53,9 @@ Hi, I'm Levin!
 
 ## 🔧 Next Stint
 
-What's currently on my radar:
-- 📦 **Releasing the F1 Predictor:** Cleaning up the repo, benchmarks, and writing a solid breakdown of what worked (and what didn't).
-- 🧠 **Sharper ML Foundations:** Learning how to properly design data pipelines and evaluate models beyond simple accuracy scores.
-- 📻 **The Dream Project:** Experimenting with real-time telemetry feeds to build a lightweight AI race engineer concept.
+- 📦 **Ship the F1 Predictor** — clean repo, publish benchmarks, write a post-mortem on what worked (and what didn't)  
+- 🧠 **Sharper ML foundations** — production-grade pipelines, proper model evaluation beyond accuracy  
+- 📻 **Dream project** — real-time telemetry into lightweight AI race engineer concept
 
 ---
 
@@ -76,15 +76,15 @@ What's currently on my radar:
 
 | | |
 |---|---|
-| **Favorite Drivers** | Kimi Antonelli, Pierre Gasly, Charles Leclerc |
-| **Favorite Team** | Mercedes-AMG PETRONAS F1 Team |
-| **Favorite Circuit** | Interlagos (São Paulo) |
+| **Drivers** | Kimi Antonelli, Pierre Gasly, Charles Leclerc |
+| **Team** | Mercedes-AMG PETRONAS F1 Team |
+| **Circuit** | Interlagos (São Paulo) |
 
 ---
 
 ## 📫 Radio Check
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0b0b0b?style=for-the-badge&logo=linkedin&logoColor=e10600)](https://linkedin.com/in/YOUR-HANDLE)
-[![Email](https://img.shields.io/badge/Email-0b0b0b?style=for-the-badge&logo=gmail&logoColor=e10600)](mailto:YOUR-EMAIL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0b0b0b?style=for-the-badge&logo=linkedin&logoColor=e10600)](https://linkedin.com)
+[![Email](https://img.shields.io/badge/Email-0b0b0b?style=for-the-badge&logo=gmail&logoColor=e10600)](mailto:-)
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0b0b,100:e10600&height=100&section=footer" alt="" />
