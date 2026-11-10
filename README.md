@@ -43,7 +43,7 @@ Hi, I'm Levin!
 
 - **The Question:** How much signal is really inside pre-race sessions (quali pace, sprint results, track temp) to predict who stands on the top step on Sunday?
 - **The Approach:** Ingested timing data with FastF1/OpenF1, built rolling performance features, and evaluated baseline models (Ridge) vs. non-linear trees (XGBoost).
-- **The Verdict:** *waiting for the next race week"
+- **The Verdict:** Interlagos Prediction: P1 NOR, P2 MAX, P3 ANT. Actual: P1 NOR, P2 MAX, P3 HAD
 - **Stack:** Python, FastF1, Pandas, scikit-learn, XGBoost
 
 </details>
