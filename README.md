@@ -3,7 +3,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=E10600&center=true&vCenter=true&width=520&lines=Information+Systems+%40+ITS+Surabaya;Turning+data+into+decisions%2C+lap+by+lap;Building+an+F1+race+predictor)](https://github.com/levordzyn)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&pause=1200&color=E10600&center=true&vCenter=true&width=520&lines=Turning+data+into+decisions%2C+lap+by+lap;Building+an+F1+race+predictor)](https://github.com/levordzyn)
 
 </div>
 
@@ -11,11 +11,12 @@
 
 ## 🎙️ Pit Wall
 
-- 🎓 Information Systems student at **Institut Teknologi Sepuluh Nopember (ITS), Surabaya**
-- 📊 I like systems that turn raw data into decisions, the same job a pit wall does every race weekend
-- 🏎️ F1 enthusiast who keeps asking: *can the data predict this?*
-- 🔌 Hardware tinkerer on the side (ESP32, STM32)
-- 🌱 Learning: ML pipelines, data engineering, decision-support systems
+Hi, I'm Levin! 
+
+- 🎓 Information Systems.
+- 🏎️ Massive F1 nerd. While watching races, I'm usually wondering what data prompted a strategy call on lap 24.
+- 📊 I like systems that turn raw data into decisions, the same job a pit wall does every race weekend.
+- 🌱 Right now, I'm deep into machine learning workflows, data pipelines, and decision-support modeling.
 
 ---
 
@@ -26,34 +27,24 @@
 ![Pandas](https://img.shields.io/badge/Pandas-0b0b0b?style=for-the-badge&logo=pandas&logoColor=e10600)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-0b0b0b?style=for-the-badge&logo=scikitlearn&logoColor=e10600)
 ![Git](https://img.shields.io/badge/Git-0b0b0b?style=for-the-badge&logo=git&logoColor=e10600)
-![ESP32](https://img.shields.io/badge/ESP32%20%2F%20STM32-0b0b0b?style=for-the-badge&logo=espressif&logoColor=e10600)
 
 ---
 
-## 🏆 Race Results
+## 🏁 Results
 
 | Pos | Project | What it does | Status |
-|-----|---------|--------------|--------|
-| P1 | **F1 Race Predictor** | Predicts F1 race winners from qualifying, sprint, and weather data (FastF1 / OpenF1). Compares Ridge vs XGBoost. | 🚧 Publishing soon |
-| P2 | **[ml-football27](https://github.com/levordzyn/ml-football27)** | Football Master League companion app, extended with my own changes (based on [tjgg260/eFootball-Master-League](https://github.com/tjgg260/eFootball-Master-League)). | ✅ Live |
+|:---:|:--------|:-------------|:------:|
+| **P1** | **F1 Race Predictor** | Predicts Grand Prix outcomes using quali deltas, sprint data, and weather feeds (via FastF1 / OpenF1). Comparing Ridge regression against XGBoost. | 🚧 Polishing & publishing soon |
+| **P2** | **[ml-football27](https://github.com/levordzyn/ml-football27)** | A personalized companion tool for eFootball Master League saves (custom fork of [tjgg260/eFootball-Master-League](https://github.com/tjgg260/eFootball-Master-League)). | ✅ Live |
 
 <details>
-<summary><b>🏁 F1 Race Predictor: Problem → Approach → Result</b></summary>
+<summary><b>🔍 Behind the Build: F1 Race Predictor</b></summary>
+<br>
 
-- **Problem:** Can pre-race data (qualifying pace, sprint results, weather) predict who wins a Grand Prix?
-- **Approach:** Pulled session data with FastF1/OpenF1, engineered features, compared Ridge regression against XGBoost.
-- **Result:** [Add your real metric, e.g. top-1 / top-3 accuracy on 2023–2026 races]
+- **The Question:** How much signal is really inside pre-race sessions (quali pace, sprint results, track temp) to predict who stands on the top step on Sunday?
+- **The Approach:** Ingested timing data with FastF1/OpenF1, built rolling performance features, and evaluated baseline models (Ridge) vs. non-linear trees (XGBoost).
+- **The Verdict:** *waiting for the next race week"
 - **Stack:** Python, FastF1, Pandas, scikit-learn, XGBoost
-
-</details>
-
-<details>
-<summary><b>⚽ ml-football27: Problem → Approach → Result</b></summary>
-
-- **Problem:** [What gap the original app had]
-- **Approach:** [What you added or fixed, e.g. bug fixes, match simulation, tactics]
-- **Result:** [What it can do now]
-- **Stack:** Python
 
 </details>
 
@@ -61,9 +52,10 @@
 
 ## 🔧 Next Stint
 
-- **Building:** publishing the F1 Race Predictor with full documentation
-- **Learning:** ML evaluation, data pipelines, decision-support systems
-- **Exploring:** connecting F1 telemetry to a live AI race engineer
+What's currently on my radar:
+- 📦 **Releasing the F1 Predictor:** Cleaning up the repo, benchmarks, and writing a solid breakdown of what worked (and what didn't).
+- 🧠 **Sharper ML Foundations:** Learning how to properly design data pipelines and evaluate models beyond simple accuracy scores.
+- 📻 **The Dream Project:** Experimenting with real-time telemetry feeds to build a lightweight AI race engineer concept.
 
 ---
 
@@ -80,13 +72,13 @@
 
 ---
 
-## 🏁 Fun Facts
+## 💬 Paddock Talk
 
 | | |
 |---|---|
-| Favorite driver | [Your driver] |
-| Favorite team | [Your team] |
-| Favorite circuit | [Your circuit] |
+| **Favorite Drivers** | Kimi Antonelli, Pierre Gasly, Charles Leclerc |
+| **Favorite Team** | Mercedes-AMG PETRONAS F1 Team |
+| **Favorite Circuit** | Interlagos (São Paulo) |
 
 ---
 
