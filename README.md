@@ -35,7 +35,7 @@ Hi, I'm **Levin**.
 
 | Pos | Project | What it does | Status |
 |:---:|:--------|:-------------|:------:|
-| **P1** | **F1 Race Predictor** | Predicts Grand Prix winners using quali deltas, sprint data, track temp & weather (FastF1 / OpenF1). Benchmarks Ridge vs. XGBoost. | 🚧 Polishing & publishing soon |
+| **P1** | **F1 Race Predictor** | Predicts Grand Prix winners using quali deltas, sprint data, track temp & weather (FastF1 / OpenF1). Benchmarks Ridge vs. XGBoost. | ✅ Live |
 | **P2** | **[ml-football27](https://github.com/levordzyn/ml-football27)** | Companion tool for eFootball Master League saves (fork of [tjgg260/eFootball-Master-League](https://github.com/tjgg260/eFootball-Master-League)). | ✅ Live |
 
 <details>
@@ -59,17 +59,6 @@ Hi, I'm **Levin**.
 - **Ship the F1 Predictor** — clean repo, publish benchmarks, write a post-mortem on what worked (and what didn't)  
 - **Sharper ML foundations** — production-grade pipelines, proper model evaluation beyond accuracy  
 - **Dream project** — real-time telemetry into lightweight AI race engineer concept
-
----
-
-## 📊 Telemetry
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=levordzyn&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=e10600&icon_color=e10600&text_color=ffffff&cache_seconds=1800" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=levordzyn&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=e10600&text_color=ffffff&cache_seconds=1800" alt="Top languages" />
-
-<br><br>
 
 ---
 
