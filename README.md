@@ -1,5 +1,5 @@
 <!-- Header banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e10600,100:0b0b0b&height=190&section=header&text=Levin&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Information%20Systems%20%C3%97%20Formula%201&descSize=18&descAlignY=58&animation=fadeIn" alt="levordash — Information Systems × Formula 1" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:e10600,100:0b0b0b&height=190&section=header&text=levordash&fontSize=56&fontColor=ffffff&fontAlignY=36&desc=Information%20Systems%20%C3%97%20Formula%201&descSize=18&descAlignY=58&animation=fadeIn" alt="levordash — Information Systems × Formula 1" />
 
 <div align="center">
 
@@ -11,7 +11,7 @@
 
 ## 🎙️ Pit Wall
 
-Hi, I'm **Levin**.
+Hi,
 
 - 🎓 Information Systems student  
 - 🏎️ During races, I'm usually wondering what data drove the strategy call on lap 24  
